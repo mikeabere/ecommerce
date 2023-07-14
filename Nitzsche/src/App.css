@@ -118,3 +118,21 @@ header{
     border: 1px solid var(--gray-200, #EAECF0);
      background: var(--gradient-linear-color-20, linear-gradient(45deg, #E9DEFA 0%, #FFF6EB 100%)); 
   }
+ /*category section */
+ .categories{
+  margin-top: 96px;
+  border: 1px solid purple;
+  width: 1050px;
+  height: 344px;
+ 
+ }
+ .cat-shopping{
+  display: flex;
+ }
+ .icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: -30px;
+  padding-left: 40px;
+ 
+ }
